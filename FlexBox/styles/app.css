@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montserrat';
+      src: url('../assets/fonts/Montserrat-Light.eot'); /* IE9 Compat Modes */
+      src:url('../assets/fonts/Montserrat-Light.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../assets/fonts/Montserrat-Light.woff') format('woff'); /* Pretty Modern Browsers */
+      font-weight: 300;
+      font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+      src: url('../assets/fonts/Montserrat-Regular.eot'); /* IE9 Compat Modes */
+      src:url('../assets/fonts/Montserrat-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../assets/fonts/Montserrat-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+      font-weight: 500;
+      font-style: normal;
+  }
+  *, *::after, *::before{
+      box-sizing: border-box;
+      padding:0;
+  }
+body{
+background-color: #f2f2f2;
+font-family:'Montserrat';
+}
